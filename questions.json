@@ -1,0 +1,146 @@
+var questions = {
+    "video": [{
+        "id": 0,
+        "question": "Are you re-encoding existing videos or projects?",
+        "true": "media-encoder",
+        "false": 1,
+        "short": "Re-encoding"
+    },{
+        "id": 1,
+        "question": "Are you managing metadata for multiple video clips?",
+        "true": "prelude",
+        "false": 2,
+        "short": "Metadata"
+    },{
+        "id": 2,
+        "question": "Are you adding or creating animated content?",
+        "true": 3,
+        "false": 4,
+        "short": "Animated"
+    },{
+        "id": 3,
+        "question": "Will the video feature animated characters?",
+        "true": "character-animator",
+        "false": "animate",
+        "short": "Characters"
+    },{
+        "id": 4,
+        "question": "Will you add special effects to your video?",
+        "true": "after-effects",
+        "false": 5,
+        "short": "Special Effects"
+    },{
+        "id": 5,
+        "question": "Do you want to edit your videos on mobile devices?",
+        "true": "premiere-rush",
+        "false": 6,
+        "short": "Mobile editing"
+    },{
+        "id": 6,
+        "question": "Will your project have multiple timelines?",
+        "true": "premiere-pro",
+        "false": "premiere-elements",
+        "short": "Multiple timelines"
+    }],
+    "audio": [{
+        "id": 0,
+        "question": "Are you recording new audio?",
+        "true": "audition",
+        "false": 1,
+        "short": "New audio"
+    },{
+        "id": 1,
+        "question": "Are you managing metadata for multiple audio clips?",
+        "true": "prelude",
+        "false": "media-encoder",
+        "short": "Metadata"
+    }],
+    "document": [{
+        "id": 0,
+        "question": "Are you designing a new document?",
+        "true": 1,
+        "false": 2,
+        "short": "New document"
+    },{
+        "id": 1,
+        "question": "Are you collaborating on the copy with other users?",
+        "true": "incopy",
+        "false": "indesign",
+        "short": "Collaboration"
+    },{
+        "id": 2,
+        "question": "Do you need to store your document in the cloud?",
+        "true": "acrobat-dc",
+        "false": "acrobat",
+        "short": "Cloud storage"
+    }],
+    "website": [{
+        "id": 0,
+        "question": "Are you coding the website?",
+        "true": "dreamwaver",
+        "false": 1,
+        "short": "Coding"
+    },{
+        "id": 1,
+        "question": "Are you designing graphics for the website?",
+        "true": 2,
+        "false": "xd",
+        "short": "Graphics"
+    },{
+        "id": 2,
+        "question": "Are you modifying photographs for use on the website?",
+        "true": "photoshop",
+        "false": "illustrator",
+        "short": "Photographs"
+    }],
+    "image": [{
+        "id": 0,
+        "question": "Are you working with illustrations or logos?",
+        "true": "illustrator",
+        "false": 1,
+        "short": "Vector images"
+    },{
+        "id": 1,
+        "question": "Are you working with a single photograph?",
+        "true": 2,
+        "false": 3,
+        "short": "Single photograph"
+    },{
+        "id": 2,
+        "question": "Do you want to be able to fine-tune your photograph?",
+        "true": "photoshop",
+        "false": "photoshop-elements",
+        "short": "Fine-tuning"
+    },{
+        "id": 3,
+        "question": "Do you need advanced control over your workflows?",
+        "true": 4,
+        "false": "bridge",
+        "short": "Workflow control"
+    },{
+        "id": 4,
+        "question": "Do you need to keep track of image settings between uses?",
+        "true": 5,
+        "false": "lightroom-classic",
+        "short": "Image settings"
+    },{
+        "id": 5,
+        "question": "Do you need to store your images in the cloud?",
+        "true": 6,
+        "false": "lightroom",
+        "short": "Cloud storage"
+    }],
+    "3d": [{
+        "id": 0,
+        "question": "Are you creating an augmented reality experience?",
+        "true": "aero",
+        "false": 1,
+        "short": "Augmented reality"
+    },{
+        "id": 1,
+        "question": "Will your 3D images be flattened to 2D?",
+        "true": "photoshop",
+        "false": "dimension",
+        "short": "2D images"
+    }]
+};

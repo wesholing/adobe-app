@@ -1,0 +1,95 @@
+var apps = {
+    "acrobat": {
+        "name": "Acrobat Pro",
+        "prodid": "g-40959",
+        "description": "Acrobat Pro is desktop software for creating, editing, signing, sending, and tracking PDF documents.  It includes the standard functionality of earlier versions of Acrobat, like converting other file formats to PDFs and adding form fields, but it also includes communication and collaboration tools. Unlike the DC version, though, it does not include cloud storage in Adobe's Document Cloud."
+    }, "acrobat-dc": {
+        "name": "Acrobat Pro DC",
+        "prodid": "g-49935",
+        "description": "Acrobat Pro DC is desktop software for creating, editing, signing, sending, and tracking PDF documents. It includes the standard functionality of earlier versions of Acrobat, like converting other file formats to PDFs and adding form fields, but it also includes communication and collaboration tools. The Document Cloud (DC) lets you share your documents with anyone and edit them from any device. TechSoup also offers Acrobat as a standalone product with a perpetual license."
+    }, "aero": {
+        "name": "Aero",
+        "prodid": "g-49388",
+        "description": "Aero is software for designing, viewing, and sharing interactive Augmented reality experiences without any coding. You can turn 2D images from Photoshop or Illustrator or 3D models from Dimension or Substance into unique visual experiences."
+    }, "after-effects": {
+        "name": "After Effects",
+        "prodid": "g-49388",
+        "description": "After Effects is software for adding visual effects and motion graphics to videos. You can import videos and add basic effects like titles and credits or add movie-grade special effects."
+    }, "animate": {
+        "name": "Animate",
+        "prodid": "g-49388",
+        "description": "Animate, formerly known as Flash Professional, is software designed for creating animated vector graphics for use on any screen. You can add photos, logos, text, video, and audio to your animations and create smooth movements by using the built-in Animate tools or by writing code with ActionScript."
+    }, "audition": {
+        "name": "Audition",
+        "prodid": "g-49388",
+        "description": "Audition is digital audio editing software. You can import existing audio or record new audio, layer it, adjust the levels, remove noise, and save it in a variety of formats. Audition is an all-in-one audio workstation for telling your organization's story."
+    }, "bridge": {
+        "name": "Bridge",
+        "prodid": "g-49388",
+        "description": "Bridge is a digital asset manager, designed to help organize your digital photos and other graphics. It integrates with Photoshop and your operating system and allows you to tag images with keywords for quick searches."
+    }, "character-animator": {
+        "name": "Character Animator",
+        "prodid": "g-49388",
+        "description": "Character Animator is software for creating expressive, performance-based animation. It can map live video to animated characters, including face tracking and lip syncing, and import and animate characters first created in Illustrator or Photoshop."
+    }, "dimension": {
+        "name": "Dimension",
+        "prodid": "g-49388",
+        "description": "Dimension is 3D scene-designing software for prototyping, rendering photorealistic images, and publishing interactive content. Dimension can be used to mimic a photoshoot by matching 3D designs with any background image and aligning the perspective and lighting with the background."
+    }, "dreamweaver": {
+        "name": "Dreamweaver",
+        "prodid": "g-49388",
+        "description": "Dreamweaver is a web development tool for writing code in multiple languages for the web. Your code is highlighted for easier reading, and Dreamweaver helps complete it as you write it. It also includes design and split views that show you how your site will look as you write the code."
+    }, "illustrator": {
+        "name": "Illustrator",
+        "prodid": "g-49388",
+        "description": "Illustrator is a vector-based drawing tool built for professional artists and designers. Design professionals use Illustrator to create vector art, such as logos, icons, sketches, typography, and illustrations. Vector art created in Illustrator can be used in print, on the web, in interactive features, in videos, and in mobile apps."
+    }, "incopy": {
+        "name": "InCopy",
+        "prodid": "g-49388",
+        "description": "InCopy is software for copywriters and editors to style text, track changes, and make basic layout modifications to a document while designers work on the same document in InDesign without overwriting each other's contributions."
+    }, "indesign": {
+        "name": "InDesign",
+        "prodid": "g-49388",
+        "description": "InDesign is desktop publishing software. It's ideal for creating print documents like posters, fliers, brochures, newsletters, magazines, and books. InDesign can also make interactive documents for use on tablets, complete with video and buttons."
+    }, "lightroom": {
+        "name": "Lightroom",
+        "prodid": "g-49388",
+        "description": "Lightroom is a photo processor and image organizer. It allows you to make basic retouches to collections of photos while retaining the originals. It can integrate with a Photoshop workflow by allowing you to make broad changes to the entire collection and then make changes to individual images in Photoshop. Unlike Lightroom Classic, Lightroom is designed for a cloud-based workflow and use on any device."
+    }, "lightroom-classic": {
+        "name": "Lightroom Classic",
+        "prodid": "g-49388",
+        "description": "Lightroom Classic is a photo processor and image organizer. It allows you to make basic retouches to collections of photos while retaining the originals. It can integrate with a Photoshop workflow by allowing you to make broad changes to the entire collection and then make changes to individual images in Photoshop. Unlike Lightroom, Lightroom Classic is designed for a desktop-based workflow and use on only that device."
+    }, "media-encoder": {
+        "name": "Media Encoder",
+        "prodid": "g-49388",
+        "description": "Media Encoder is video and audio encoding software. It can import from and export to almost any format and is designed to integrate with other Adobe apps, including Premiere Pro, After Effects, and Audition."
+    }, "photoshop": {
+        "name": "Photoshop",
+        "prodid": "g-49388",
+        "description": "Photoshop is an all-in-one image editor. It supports multilayered editing, multiple color models (including RGB for screens and CMYK for print), and adjustments to the tone, color, and contrast of your photos. You can also add and manipulate text in your images, add 3D graphics, and more."
+    }, "photoshop-elements": {
+        "name": "Photoshop Elements",
+        "prodid": "g-45103",
+        "description": "Photoshop Elements is a lightweight image editor with a built-in image organizer. If you regularly make basic edits to photos and want to keep them all sorted for easy access, but you don't need more advanced features found in Photoshop, Photoshop Elements may be the right choice for you."
+    }, "prelude": {
+        "name": "Prelude",
+        "prodid": "g-49388",
+        "description": "Prelude is software for tagging and transcoding video footage to create a quick rough cut. It can log and ingest video to better organize media by its metadata, and it integrates with the Premiere Pro video workflow."
+    }, "premiere-elements": {
+        "name": "Premiere Elements",
+        "prodid": "g-45103",
+        "description": "Premiere Elements is a lightweight video editor. If you prefer to make videos from templates and don't need more advanced features found in Premiere Pro, like multiple timelines, keyframing, or subtitles, Premiere Elements may be the right choice for you."
+    }, "premiere-pro": {
+        "name": "Premiere Pro",
+        "prodid": "g-49388",
+        "description": "Premiere Pro is a video editor used by professional TV and movie studios. You can load video clips from a variety of formats, edit them as you need, add graphics and titles, and export to any available format."
+    }, "premiere-rush": {
+        "name": "Premiere Rush",
+        "prodid": "g-49388",
+        "description": "Premiere Rush is a cross-device video editing app, intended to simplify the process of editing, modifying, and sharing videos. Premiere Rush includes customizable templates and integrates with Stock, Adobe's stock media service."
+    }, "xd": {
+        "name": "XD",
+        "prodid": "g-49388",
+        "description": "XD is software for designing, prototyping, and sharing user experience (UX) and interactive designs. XD is intended for creating designs for websites, mobile apps, email templates, and other digital interfaces."
+    }
+};

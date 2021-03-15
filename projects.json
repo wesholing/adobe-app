@@ -1,0 +1,32 @@
+var projects = {
+    "video":
+    {
+        "name": "Video",
+        "goto": "video"
+    },
+    "audio":
+    {
+        "name": "Audio",
+        "goto": "audio"
+    },
+    "document":
+    {
+        "name": "Document",
+        "goto": "document"
+    },
+    "website":
+    {
+        "name": "Website",
+        "goto": "website"
+    },
+    "image":
+    {
+        "name": "Image",
+        "goto": "image"
+    },
+    "3d":
+    {
+        "name": "3D",
+        "goto": "3d"
+    }
+};

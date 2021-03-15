@@ -1,0 +1,240 @@
+#app * {
+    transition: 0.2s all;
+}
+
+#app {
+    background-color: #00739F;
+    height: 700px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-white {
+    color: #fff;
+}
+
+#appIntro h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#btnAppStart {
+    display: block;
+    margin-top: 20px;
+}
+
+#appNav {
+    background-color: #e6e6e6;
+}
+
+.appNavCtnH1 {
+    font-family: Replica-Pro, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #555;
+    font-weight: normal;
+    margin: 0;
+    line-height: 2.5em;
+}
+
+#appNav .restart {
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+#appBody {
+    background-color: #00739F;
+    padding-top: 60px;
+}
+
+#appBody h2 {
+    margin: 0;
+    line-height: 37px;
+}
+
+/* -- */
+
+.projectUl {
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectUl li {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px #000;
+    cursor: pointer;
+    user-select: none;
+}
+
+.projectUl li:hover {
+    background-color: #f1f1f2;
+}
+
+.projectUl li:active {
+    box-shadow: none;
+    margin: 2px 0 8px 0;
+}
+
+.projectUl li:last-of-type {
+    margin-right: 0;
+}
+
+.projectUl li .img {
+    width: 23px;
+    margin-right: 10px;
+}
+
+.projectUl li img {
+    height: 15px;
+}
+
+.projectUl li a:hover {
+    text-decoration: none;
+}
+
+.projectUl li a.text {
+    color: #003966;
+}
+
+@media screen and (min-width: 768px) {
+    .projectUl {
+        flex-direction: row;
+    }
+    
+    .projectUl li {
+        display: inline;
+        padding: 15px;
+        margin-right: 15px;
+        width: 90px;
+        text-align: center;
+        margin-bottom: 0;
+        height: 100px;
+    }
+    
+    .projectUl li:active {
+        margin: 2px 15px -2px 0;
+    }
+    
+    .projectUl li .img {
+        width: 60px;
+        margin-right: 0;
+        height: 45px;
+    }
+
+    .projectUl li .img img {
+        height: inherit;
+        padding-right: 0;
+        padding-bottom: 10px;
+        user-select: none;
+    }
+}
+
+/* -- */
+
+.qRow > div {
+    height: 100px;
+}
+
+#appBody .bodyContent {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    #appBody .bodyContent {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .btn.yesno {
+        width: 164px;
+    }
+}
+
+.btn.yesno {
+    background-color: #fff;
+    margin-right: 15px;
+    box-shadow: 0px 2px 4px #000;
+    width: 120px;
+}
+
+.btn.yesno:hover {
+    background-color: #f1f1f2;
+}
+
+.btn.yesno:active {
+    box-shadow: none;
+    margin: 2px 15px -2px 0;
+}
+
+.btn.yesno:last-of-type {
+    margin-right: 0;
+}
+
+/* -- */
+
+#appBody .tally ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    color: #E6E6E6;
+}
+
+#appBody .tally ul li span {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #E6E6E6;
+    border-radius: 3px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 18px;
+}
+
+#appBody .tally ul li span img {
+    width: 16px;
+    user-select: none;
+}
+
+/* -- */
+
+#appBody h2.product {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.useProduct .header {
+    text-transform: uppercase;
+}
+
+.useProduct .productName h2 {
+    margin: 10px 0 15px 0;
+    font-size: 32px;
+}
+
+.bodyContentCtn .desktop-img {
+    display: none;
+}
+
+#learnmore {
+    margin-top: 20px;
+    display: block;
+}
+
+@media screen and (min-width: 768px) {
+    .useProduct .img {
+        display: none;
+    }
+    
+    .bodyContentCtn .desktop-img {
+        display: inherit;
+    }
+}
