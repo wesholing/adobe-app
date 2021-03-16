@@ -34,13 +34,7 @@ function addTally(binary,short) {
 }
 
 function setQ(project,i) {
-    
     document.querySelector("h2").textContent = questions[project][i]["question"];
-    
-/*    var binary = binary.toString();
-    var tallyUl = document.querySelector("#appBody .tally ul");
-    var projectLi = '<li><span><img src="' + binary + '.svg" class="img-' + binary + '"></span>' + tally + '</li>';
-    tallyUl.insertAdjacentHTML('beforeend',projectLi); */
 }
 
 function hideButtons() {
@@ -74,7 +68,6 @@ function clickBtn(project,i,choice) {
             var productId = apps[pick]["prodid"];
             var productSrc = pick;
             drawProduct(productName,productDesc,productId,productSrc);
-            console.log(productName);
             break;
         case "number":
             var tally = questions[project][pick]["short"];
@@ -105,7 +98,7 @@ function drawProjectQ() {
         var str_project = Object.keys(projects)[i];
         var str_imgProjectSrc = str_project + ".svg";
         var str_txtProject = Object.entries(projects)[i][1].name;
-        var project = '<li id="' + str_project + '" role="button"><div class="img text-center"><img src="' + str_imgProjectSrc + '"></div><div class="text">' + str_txtProject + '</div></li>';
+        var project = '<li id="' + str_project + '" role="button"><div class="img text-center"><img src="' + str_imgProjectSrc + '" draggable="false" alt="' + str_txtProject + '"></div><div class="text">' + str_txtProject + '</div></li>';
         document.querySelector(".projectUl").insertAdjacentHTML('beforeend',project);
     }
     

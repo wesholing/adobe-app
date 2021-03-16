@@ -25,6 +25,7 @@
 
 #appNav {
     background-color: #e6e6e6;
+    padding: 0;
 }
 
 .appNavCtnH1 {
@@ -43,7 +44,7 @@
 
 #appBody {
     background-color: #00739F;
-    padding-top: 60px;
+    padding: 60px 0 0 0;
 }
 
 #appBody h2 {
@@ -220,6 +221,10 @@
     font-size: 32px;
 }
 
+.bodyContentCtn .description {
+    padding-bottom: 20px;
+}
+
 .bodyContentCtn .desktop-img {
     display: none;
 }
@@ -232,6 +237,10 @@
 @media screen and (min-width: 768px) {
     .useProduct .img {
         display: none;
+    }
+    
+    .bodyContentCtn .description {
+        padding-bottom: 0;
     }
     
     .bodyContentCtn .desktop-img {
